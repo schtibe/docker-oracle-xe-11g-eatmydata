@@ -41,6 +41,9 @@ echo 'export ORACLE_SID=XE' >> /etc/bash.bashrc &&
 mv /assets/startup.sh /usr/sbin/startup.sh &&
 chmod +x /usr/sbin/startup.sh &&
 
+# install eatmydata
+apt-get install -y eatmydata
+
 # Remove installation files
 rm -r /assets/
 
