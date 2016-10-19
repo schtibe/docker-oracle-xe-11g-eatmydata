@@ -9,4 +9,6 @@ EXPOSE 22
 EXPOSE 1521
 EXPOSE 8080
 
+COPY environment /etc/
+
 CMD /usr/sbin/startup.sh && /usr/sbin/sshd -D
