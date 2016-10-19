@@ -10,7 +10,7 @@ sed -i "s/%hostname%/$HOSTNAME/g" "${TNSNAMES_ORA}" &&
 sed -i "s/%port%/1521/g" "${TNSNAMES_ORA}" &&
 
 # subsequent proceses should have the LD_PRELOAD
-eatmydata service oracle-xe start
+service oracle-xe start
 
 export ORACLE_HOME=/u01/app/oracle/product/11.2.0/xe
 export PATH=$ORACLE_HOME/bin:$PATH
