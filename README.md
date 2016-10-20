@@ -1,5 +1,14 @@
-docker-oracle-xe-11g
-============================
+docker-oracle-xe-11g, eatmydata edition
+=======================================
+
+## Eatmydata solution
+
+This is a slightly modified version of wnameless/oracle-xe-11g which
+makes use of [Eatmydata](https://www.flamingspork.com/projects/libeatmydata/). 
+This is pratical for instance for running testing where crash safety
+is not really important.
+
+---
 
 Oracle Express Edition 11g Release 2 on Ubuntu 16.04 LTS
 
